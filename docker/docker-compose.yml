@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  ubuntu1:
+    build: ./ubuntu1
+    container_name: cs415_db_1
+    tty: true
+    stdin_open: true
+
+  ubuntu2:
+    build: ./ubuntu1
+    container_name: cs415_db_2
+    tty: true
+    stdin_open: true
